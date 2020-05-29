@@ -29,68 +29,45 @@
     
     <!-- ios -->
     <platform name="ios">
-        
-        <!-- iOS9 whitelisting -->
-        <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
-            <array>
-                <string>twitter</string>
-                <string>fb</string>
-                <string>whatsapp</string>
-                <string>itms-apps</string>
-                <string>youtube</string>
-                <string>soundcloud</string>
-                <string>fb-messenger</string>
-                <string>instagram</string>
-                <string>lojacontinente</string>
-                <string>smartcontinente</string>
-                <string>tiravez</string>
-                <string>appuniverso</string>
-		<string>https://app.kfc.pt/</string>
-		<string>continentesiga</string>
-		<string>galp</string>
-            </array>
-        </config-file>
-	    
-	    
-	    
-	<config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription" mode="merge">
-            <string>Descubra lojas e promoções perto de si ao ativar o Bluetooth.</string>
-        </config-file>
-	   
+        	    
+	<config-file target="*-Info.plist" parent="NSCalendarsUsageDescription" mode="merge">
+            
+            <string>A APP ZU gostaria de aceder ao seu calendário. O acesso ao seu calendário possibilita a associação e a visualização de eventos da APP ZU.</string>
+            
+    </config-file>
 
-	<config-file target="*-Info.plist" parent="NSBluetoothAlwaysUsageDescription" mode="merge">
+	<config-file target="*-Info.plist" parent="NSCameraUsageDescription" mode="merge">
             
-        	<string>Descubra lojas e promoções perto de si ao ativar o Bluetooth.</string>
-            
-        </config-file>
-	    
-	   
-	 
-	    
-	    
-	
-	
-
-	<config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription" mode="merge">
-            
-        	<string>Descubra lojas e promoções perto de si ao ativar a sua localização.</string>
+        	<string>A APP ZU gostaria de aceder à sua câmara sempre que pretenda publicar uma fotografia no perfil do seu animal.</string>
             
 	</config-file>
-	
 
-	<config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" mode="merge">
+    
+    <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription" mode="merge">
             
-        	<string>Descubra lojas e promoções perto de si ao ativar a sua localização.</string>
+            <string>A APP ZU gostaria de aceder à sua galeria de fotos sempre que pretenda publicar uma fotografia no perfil do seu animal.</string>
             
-	</config-file>
-	    
-	 
-	<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" mode="merge">
+    </config-file>
+
+    <config-file target="*-Info.plist" parent="NSLocationUsageDescription" mode="merge">
             
-        	<string>Descubra lojas e promoções perto de si ao ativar a sua localização.</string>
+            <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si./string>
             
-	</config-file>
-        
+    </config-file>
+
+    <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" mode="merge">
+            
+            <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si./string>
+            
+    </config-file>
+
+    <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" mode="merge">
+            
+            <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si./string>
+            
+    </config-file>
+	
+       
         
         
     </platform>
