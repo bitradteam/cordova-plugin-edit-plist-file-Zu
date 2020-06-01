@@ -51,19 +51,19 @@
 
     <config-file target="*-Info.plist" parent="NSLocationUsageDescription" mode="merge">
             
-            <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si./string>
+            <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si.</string>
             
     </config-file>
 
     <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" mode="merge">
             
-            <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si./string>
+            <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si.</string>
             
     </config-file>
 
     <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" mode="merge">
             
-            <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si./string>
+            <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si.</string>
             
     </config-file>
 	
