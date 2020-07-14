@@ -67,7 +67,11 @@
             
     </config-file>
 	
-       
+    <config-file target="*-Info.plist" parent="LOCATION_WHENINUSE_USAGE_DESCRIPTION" mode="merge">
+            
+            <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si.</string>
+            
+    </config-file>
         
         
     </platform>
