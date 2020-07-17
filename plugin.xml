@@ -30,44 +30,44 @@
     <!-- ios -->
     <platform name="ios">
         	    
-	<config-file target="*-Info.plist" parent="NSCalendarsUsageDescription" mode="merge">
+	<config-file target="*.plist" parent="NSCalendarsUsageDescription" mode="merge">
             
             <string>A APP ZU gostaria de aceder ao seu calendário. O acesso ao seu calendário possibilita a associação e a visualização de eventos da APP ZU.</string>
             
     </config-file>
 
-	<config-file target="*-Info.plist" parent="NSCameraUsageDescription" mode="merge">
+	<config-file target="*.plist" parent="NSCameraUsageDescription" mode="merge">
             
         	<string>A APP ZU gostaria de aceder à sua câmara sempre que pretenda publicar uma fotografia no perfil do seu animal.</string>
             
 	</config-file>
 
     
-    <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription" mode="merge">
+    <config-file target="*.plist" parent="NSPhotoLibraryUsageDescription" mode="merge">
             
             <string>A APP ZU gostaria de aceder à sua galeria de fotos sempre que pretenda publicar uma fotografia no perfil do seu animal.</string>
             
     </config-file>
 
-    <config-file target="*-Info.plist" parent="NSLocationUsageDescription" mode="merge">
+    <config-file target="*.plist" parent="NSLocationUsageDescription" mode="merge">
             
             <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si.</string>
             
     </config-file>
 
-    <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" mode="merge">
+    <config-file target="*.plist" parent="NSLocationAlwaysUsageDescription" mode="merge">
             
             <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si.</string>
             
     </config-file>
 
-    <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" mode="merge">
+    <config-file target="*.plist" parent="NSLocationWhenInUseUsageDescription" mode="merge">
             
             <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si.</string>
             
     </config-file>
 	
-    <config-file target="*-Info.plist" parent="LOCATION_WHENINUSE_USAGE_DESCRIPTION" mode="merge">
+    <config-file target="*.plist" parent="LOCATION_WHENINUSE_USAGE_DESCRIPTION" mode="merge">
             
             <string>A APP ZU gostaria de aceder à sua localização, caso necessite de saber qual é a loja ZU mais perto de si.</string>
             
